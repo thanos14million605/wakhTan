@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL:
-    import.meta.evn.MODE === "development" ? "http://localhost:3000" : "/",
+  baseURL: "https://wakhtan.onrender.com",
   withCredentials: true,
 });
 
